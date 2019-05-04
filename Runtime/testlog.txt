@@ -1,0 +1,252 @@
+/home/vladi/Data_structures_grading/Tester
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com:data-structures-ass2-tester >-------------------
+[INFO] Building data-structures-ass2-tester 1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ data-structures-ass2-tester ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/vladi/Data_structures_grading/Tester/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ data-structures-ass2-tester ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/vladi/Data_structures_grading/Tester/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ data-structures-ass2-tester ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/vladi/Data_structures_grading/Tester/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ data-structures-ass2-tester ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ data-structures-ass2-tester ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ListLookupTest
+
+==Lookup Test=====================================
+
+
+==Done============================================
+
+[ERROR] Tests run: 6, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! - in ListLookupTest
+[ERROR] existentLinkKeyTest2  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListLookupTest.existentLinkKeyTest2(ListLookupTest.java:63)
+
+[ERROR] existentLinkNullTest2  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: lookup of existent link returned null ==> expected: not <null>
+	at ListLookupTest.existentLinkNullTest2(ListLookupTest.java:47)
+
+[INFO] Running RunTimeTest
+
+
+==RunTimeTest=====================================
+
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.897 s <<< FAILURE! - in RunTimeTest
+[ERROR] runTimeTest  Time elapsed: 0.897 s  <<< ERROR!
+java.lang.NullPointerException
+	at RunTimeTest.runTimeTest(RunTimeTest.java:77)
+
+[INFO] Running LinkSetterGetterTest
+
+==Setter Getter Test==============================
+
+
+==Done============================================
+
+[INFO] Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.831 s - in LinkSetterGetterTest
+[INFO] Running ListArraySizesInvariantTest
+
+==Invariant Test==================================
+
+
+==Done============================================
+
+[ERROR] Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in ListArraySizesInvariantTest
+[ERROR] nextArraySizeRemoveTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListArraySizesInvariantTest.nextArraySizeRemoveTest(ListArraySizesInvariantTest.java:82)
+
+[ERROR] prevArraySizeRemoveTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListArraySizesInvariantTest.prevArraySizeRemoveTest(ListArraySizesInvariantTest.java:64)
+
+[ERROR] nextArraySizeTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListArraySizesInvariantTest.nextArraySizeTest(ListArraySizesInvariantTest.java:53)
+
+[ERROR] prevArraySizeTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListArraySizesInvariantTest.prevArraySizeTest(ListArraySizesInvariantTest.java:42)
+
+[INFO] Running ListSuccessorPredecessorTest
+
+==Successor Predecessor Test======================
+
+
+==Done============================================
+
+[ERROR] Tests run: 8, Failures: 4, Errors: 4, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in ListSuccessorPredecessorTest
+[ERROR] predecessorRemoveInsertTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListSuccessorPredecessorTest.predecessorRemoveInsertTest(ListSuccessorPredecessorTest.java:90)
+
+[ERROR] successorCorrectTest  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: successor of 24 is not 29 in the list (5,24,29,33,73) ==> expected: <29.0> but was: <Infinity>
+	at ListSuccessorPredecessorTest.successorCorrectTest(ListSuccessorPredecessorTest.java:38)
+
+[ERROR] predecessorInsertTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: predecessor of 33 is not 30 after inserting 30 in the list (5,24,29,33,73) ==> expected: <30.0> but was: <-Infinity>
+	at ListSuccessorPredecessorTest.predecessorInsertTest(ListSuccessorPredecessorTest.java:84)
+
+[ERROR] successorInsertTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: successor of 24 is not 26 after inserting 26 in the list (5,24,29,33,73) ==> expected: <26.0> but was: <Infinity>
+	at ListSuccessorPredecessorTest.successorInsertTest(ListSuccessorPredecessorTest.java:54)
+
+[ERROR] predecessorRemoveTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListSuccessorPredecessorTest.predecessorRemoveTest(ListSuccessorPredecessorTest.java:75)
+
+[ERROR] successorRemoveTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListSuccessorPredecessorTest.successorRemoveTest(ListSuccessorPredecessorTest.java:44)
+
+[ERROR] successorRemoveInsertTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListSuccessorPredecessorTest.successorRemoveInsertTest(ListSuccessorPredecessorTest.java:60)
+
+[ERROR] predecessorCorrectTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: predecessor of 33 is not 29 in the list (5,24,29,33,73) ==> expected: <29.0> but was: <-Infinity>
+	at ListSuccessorPredecessorTest.predecessorCorrectTest(ListSuccessorPredecessorTest.java:69)
+
+[INFO] Running ListMinimumMaximumTest
+
+==Minimum Maximum Test============================
+
+
+==Done============================================
+
+[ERROR] Tests run: 12, Failures: 4, Errors: 6, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in ListMinimumMaximumTest
+[ERROR] maximumInsertTest  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Maximum of (5,24,29,33,73) after inserting 90 is not 90 ==> expected: <90.0> but was: <91.0>
+	at ListMinimumMaximumTest.maximumInsertTest(ListMinimumMaximumTest.java:110)
+
+[ERROR] minimumCorrectTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Minimum of (5,24,29,33,73) is not 5 ==> expected: <5.0> but was: <6.0>
+	at ListMinimumMaximumTest.minimumCorrectTest(ListMinimumMaximumTest.java:46)
+
+[ERROR] maximumRemoveTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListMinimumMaximumTest.maximumRemoveTest(ListMinimumMaximumTest.java:116)
+
+[ERROR] maximumEmptiedTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListMinimumMaximumTest.maximumEmptiedTest(ListMinimumMaximumTest.java:124)
+
+[ERROR] maximumCorrectTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Maximum of (5,24,29,33,73) is not 73 ==> expected: <73.0> but was: <74.0>
+	at ListMinimumMaximumTest.maximumCorrectTest(ListMinimumMaximumTest.java:102)
+
+[ERROR] maximumEmptiedInsertTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListMinimumMaximumTest.maximumEmptiedInsertTest(ListMinimumMaximumTest.java:137)
+
+[ERROR] minimumEmptiedInsertTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListMinimumMaximumTest.minimumEmptiedInsertTest(ListMinimumMaximumTest.java:81)
+
+[ERROR] minimumInsertTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Minimum of (5,24,29,33,73) after inserting -8 is not -8 ==> expected: <-8.0> but was: <-7.0>
+	at ListMinimumMaximumTest.minimumInsertTest(ListMinimumMaximumTest.java:54)
+
+[ERROR] minimumRemoveTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListMinimumMaximumTest.minimumRemoveTest(ListMinimumMaximumTest.java:60)
+
+[ERROR] minimumEmptiedTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListMinimumMaximumTest.minimumEmptiedTest(ListMinimumMaximumTest.java:68)
+
+[INFO] Running ListSizeTest
+
+==Size Test=======================================
+
+
+==Done============================================
+
+[ERROR] Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! - in ListSizeTest
+[ERROR] removeAllTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListSizeTest.removeAllTest(ListSizeTest.java:66)
+
+[ERROR] insertRemoveInsertTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListSizeTest.insertRemoveInsertTest(ListSizeTest.java:76)
+
+[INFO] Running ListSortedTest
+
+==Insert Sorted Order Test========================
+
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in ListSortedTest
+[ERROR] insertOrderSortedTest  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.NullPointerException
+	at ListSortedTest.insertOrderSortedTest(ListSortedTest.java:41)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ListLookupTest.existentLinkNullTest2:47 lookup of existent link returned null ==> expected: not <null>
+[ERROR]   ListMinimumMaximumTest.maximumCorrectTest:102 Maximum of (5,24,29,33,73) is not 73 ==> expected: <73.0> but was: <74.0>
+[ERROR]   ListMinimumMaximumTest.maximumInsertTest:110 Maximum of (5,24,29,33,73) after inserting 90 is not 90 ==> expected: <90.0> but was: <91.0>
+[ERROR]   ListMinimumMaximumTest.minimumCorrectTest:46 Minimum of (5,24,29,33,73) is not 5 ==> expected: <5.0> but was: <6.0>
+[ERROR]   ListMinimumMaximumTest.minimumInsertTest:54 Minimum of (5,24,29,33,73) after inserting -8 is not -8 ==> expected: <-8.0> but was: <-7.0>
+[ERROR]   ListSuccessorPredecessorTest.predecessorCorrectTest:69 predecessor of 33 is not 29 in the list (5,24,29,33,73) ==> expected: <29.0> but was: <-Infinity>
+[ERROR]   ListSuccessorPredecessorTest.predecessorInsertTest:84 predecessor of 33 is not 30 after inserting 30 in the list (5,24,29,33,73) ==> expected: <30.0> but was: <-Infinity>
+[ERROR]   ListSuccessorPredecessorTest.successorCorrectTest:38 successor of 24 is not 29 in the list (5,24,29,33,73) ==> expected: <29.0> but was: <Infinity>
+[ERROR]   ListSuccessorPredecessorTest.successorInsertTest:54 successor of 24 is not 26 after inserting 26 in the list (5,24,29,33,73) ==> expected: <26.0> but was: <Infinity>
+[ERROR] Errors: 
+[ERROR]   ListArraySizesInvariantTest.nextArraySizeRemoveTest:82 » NullPointer
+[ERROR]   ListArraySizesInvariantTest.nextArraySizeTest:53 NullPointer
+[ERROR]   ListArraySizesInvariantTest.prevArraySizeRemoveTest:64 » NullPointer
+[ERROR]   ListArraySizesInvariantTest.prevArraySizeTest:42 NullPointer
+[ERROR]   ListLookupTest.existentLinkKeyTest2:63 NullPointer
+[ERROR]   ListMinimumMaximumTest.maximumEmptiedInsertTest:137 » NullPointer
+[ERROR]   ListMinimumMaximumTest.maximumEmptiedTest:124 » NullPointer
+[ERROR]   ListMinimumMaximumTest.maximumRemoveTest:116 » NullPointer
+[ERROR]   ListMinimumMaximumTest.minimumEmptiedInsertTest:81 » NullPointer
+[ERROR]   ListMinimumMaximumTest.minimumEmptiedTest:68 » NullPointer
+[ERROR]   ListMinimumMaximumTest.minimumRemoveTest:60 » NullPointer
+[ERROR]   ListSizeTest.insertRemoveInsertTest:76 » NullPointer
+[ERROR]   ListSizeTest.removeAllTest:66 » NullPointer
+[ERROR]   ListSortedTest.insertOrderSortedTest:41 NullPointer
+[ERROR]   ListSuccessorPredecessorTest.predecessorRemoveInsertTest:90 » NullPointer
+[ERROR]   ListSuccessorPredecessorTest.predecessorRemoveTest:75 » NullPointer
+[ERROR]   ListSuccessorPredecessorTest.successorRemoveInsertTest:60 » NullPointer
+[ERROR]   ListSuccessorPredecessorTest.successorRemoveTest:44 » NullPointer
+[ERROR]   RunTimeTest.runTimeTest:77 » NullPointer
+[INFO] 
+[ERROR] Tests run: 78, Failures: 9, Errors: 19, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.978 s
+[INFO] Finished at: 2019-04-16T19:09:24+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.1:test (default-test) on project data-structures-ass2-tester: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/vladi/Data_structures_grading/Tester/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

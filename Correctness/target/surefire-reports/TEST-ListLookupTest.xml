@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ListLookupTest" time="0.484" tests="84" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/vladi/Data_structures_grading/Correctness/target/test-classes:/home/vladi/Data_structures_grading/Correctness/target/classes:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/vladi/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/vladi/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/vladi/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/vladi/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/vladi/Data_structures_grading/Correctness/target/surefire/surefirebooter6552564356349143003.jar /home/vladi/Data_structures_grading/Correctness/target/surefire 2019-05-04T19-48-56_621-jvmRun1 surefire1485671986731420847tmp surefire_03034742817136957112tmp"/>
+    <property name="test" value="ListLookupTest"/>
+    <property name="surefire.test.class.path" value="/home/vladi/Data_structures_grading/Correctness/target/test-classes:/home/vladi/Data_structures_grading/Correctness/target/classes:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/vladi/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/vladi/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/vladi/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/vladi/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/vladi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/vladi/Data_structures_grading/Correctness"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/vladi/Data_structures_grading/Correctness/target/surefire/surefirebooter6552564356349143003.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-8u191-b12-2ubuntu0.16.04.1-b12"/>
+    <property name="user.name" value="vladi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-47-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/vladi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/home/vladi/Data_structures_grading/Correctness"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/home/vladi/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="lookupNotThrowTest{int}[1]" classname="ListLookupTest" time="0.036"/>
+  <testcase name="lookupNotThrowTest{int}[2]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotThrowTest{int}[3]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotThrowTest{int}[4]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotThrowTest{int}[5]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotThrowTest{int}[6]" classname="ListLookupTest" time="0.002"/>
+  <testcase name="lookupNotThrowTest{int}[7]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotThrowTest{int}[8]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotThrowTest{int}[9]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotThrowTest{int}[10]" classname="ListLookupTest" time="0.026"/>
+  <testcase name="lookupNotThrowTest{int}[11]" classname="ListLookupTest" time="0.005"/>
+  <testcase name="lookupNotThrowTest{int}[12]" classname="ListLookupTest" time="0.013"/>
+  <testcase name="lookupNotNullTest{int}[1]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotNullTest{int}[2]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotNullTest{int}[3]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotNullTest{int}[4]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotNullTest{int}[5]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotNullTest{int}[6]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotNullTest{int}[7]" classname="ListLookupTest" time="0.003"/>
+  <testcase name="lookupNotNullTest{int}[8]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotNullTest{int}[9]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotNullTest{int}[10]" classname="ListLookupTest" time="0.005"/>
+  <testcase name="lookupNotNullTest{int}[11]" classname="ListLookupTest" time="0.003"/>
+  <testcase name="lookupNotNullTest{int}[12]" classname="ListLookupTest" time="0.017"/>
+  <testcase name="lookupCorrectTest{int}[1]" classname="ListLookupTest" time="0.002"/>
+  <testcase name="lookupCorrectTest{int}[2]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupCorrectTest{int}[3]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupCorrectTest{int}[4]" classname="ListLookupTest" time="0.003"/>
+  <testcase name="lookupCorrectTest{int}[5]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupCorrectTest{int}[6]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupCorrectTest{int}[7]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupCorrectTest{int}[8]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupCorrectTest{int}[9]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupCorrectTest{int}[10]" classname="ListLookupTest" time="0.01"/>
+  <testcase name="lookupCorrectTest{int}[11]" classname="ListLookupTest" time="0.006"/>
+  <testcase name="lookupCorrectTest{int}[12]" classname="ListLookupTest" time="0.023"/>
+  <testcase name="lookupCorrectTestNeg{int}[1]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupCorrectTestNeg{int}[2]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupCorrectTestNeg{int}[3]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupCorrectTestNeg{int}[4]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupCorrectTestNeg{int}[5]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupCorrectTestNeg{int}[6]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupCorrectTestNeg{int}[7]" classname="ListLookupTest" time="0.003"/>
+  <testcase name="lookupCorrectTestNeg{int}[8]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupCorrectTestNeg{int}[9]" classname="ListLookupTest" time="0.002"/>
+  <testcase name="lookupCorrectTestNeg{int}[10]" classname="ListLookupTest" time="0.007"/>
+  <testcase name="lookupCorrectTestNeg{int}[11]" classname="ListLookupTest" time="0.007"/>
+  <testcase name="lookupCorrectTestNeg{int}[12]" classname="ListLookupTest" time="0.023"/>
+  <testcase name="lookupNullTest{int}[1]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNullTest{int}[2]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNullTest{int}[3]" classname="ListLookupTest" time="0.003"/>
+  <testcase name="lookupNullTest{int}[4]" classname="ListLookupTest" time="0.002"/>
+  <testcase name="lookupNullTest{int}[5]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNullTest{int}[6]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNullTest{int}[7]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNullTest{int}[8]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNullTest{int}[9]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNullTest{int}[10]" classname="ListLookupTest" time="0.005"/>
+  <testcase name="lookupNullTest{int}[11]" classname="ListLookupTest" time="0.008"/>
+  <testcase name="lookupNullTest{int}[12]" classname="ListLookupTest" time="0.021"/>
+  <testcase name="lookupNotNullTestNeg{int}[1]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotNullTestNeg{int}[2]" classname="ListLookupTest" time="0.005"/>
+  <testcase name="lookupNotNullTestNeg{int}[3]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotNullTestNeg{int}[4]" classname="ListLookupTest" time="0.002"/>
+  <testcase name="lookupNotNullTestNeg{int}[5]" classname="ListLookupTest" time="0.003"/>
+  <testcase name="lookupNotNullTestNeg{int}[6]" classname="ListLookupTest" time="0.002"/>
+  <testcase name="lookupNotNullTestNeg{int}[7]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotNullTestNeg{int}[8]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotNullTestNeg{int}[9]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotNullTestNeg{int}[10]" classname="ListLookupTest" time="0.004"/>
+  <testcase name="lookupNotNullTestNeg{int}[11]" classname="ListLookupTest" time="0.006"/>
+  <testcase name="lookupNotNullTestNeg{int}[12]" classname="ListLookupTest" time="0.013"/>
+  <testcase name="lookupNotThrowTestNeg{int}[1]" classname="ListLookupTest" time="0.002"/>
+  <testcase name="lookupNotThrowTestNeg{int}[2]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotThrowTestNeg{int}[3]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotThrowTestNeg{int}[4]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotThrowTestNeg{int}[5]" classname="ListLookupTest" time="0.003"/>
+  <testcase name="lookupNotThrowTestNeg{int}[6]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotThrowTestNeg{int}[7]" classname="ListLookupTest" time="0.001"/>
+  <testcase name="lookupNotThrowTestNeg{int}[8]" classname="ListLookupTest" time="0.002"/>
+  <testcase name="lookupNotThrowTestNeg{int}[9]" classname="ListLookupTest" time="0"/>
+  <testcase name="lookupNotThrowTestNeg{int}[10]" classname="ListLookupTest" time="0.007"/>
+  <testcase name="lookupNotThrowTestNeg{int}[11]" classname="ListLookupTest" time="0.014"/>
+  <testcase name="lookupNotThrowTestNeg{int}[12]" classname="ListLookupTest" time="0.025"/>
+</testsuite>

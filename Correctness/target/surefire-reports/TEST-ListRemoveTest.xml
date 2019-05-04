@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ListRemoveTest" time="0.858" tests="120" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/vladi/Data_structures_grading/Correctness/target/test-classes:/home/vladi/Data_structures_grading/Correctness/target/classes:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/vladi/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/vladi/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/vladi/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/vladi/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/vladi/Data_structures_grading/Correctness/target/surefire/surefirebooter6370615664010428161.jar /home/vladi/Data_structures_grading/Correctness/target/surefire 2019-05-04T19-49-04_259-jvmRun1 surefire4599327702416652430tmp surefire_07438929135095833441tmp"/>
+    <property name="test" value="ListRemoveTest"/>
+    <property name="surefire.test.class.path" value="/home/vladi/Data_structures_grading/Correctness/target/test-classes:/home/vladi/Data_structures_grading/Correctness/target/classes:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/vladi/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/vladi/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/vladi/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/home/vladi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/vladi/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/vladi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/vladi/Data_structures_grading/Correctness"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/vladi/Data_structures_grading/Correctness/target/surefire/surefirebooter6370615664010428161.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-8u191-b12-2ubuntu0.16.04.1-b12"/>
+    <property name="user.name" value="vladi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-47-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/vladi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/home/vladi/Data_structures_grading/Correctness"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/home/vladi/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="emptySizeTest{int}[1]" classname="ListRemoveTest" time="0.037"/>
+  <testcase name="emptySizeTest{int}[2]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="emptySizeTest{int}[3]" classname="ListRemoveTest" time="0"/>
+  <testcase name="emptySizeTest{int}[4]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="emptySizeTest{int}[5]" classname="ListRemoveTest" time="0"/>
+  <testcase name="emptySizeTest{int}[6]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="emptySizeTest{int}[7]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="emptySizeTest{int}[8]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="emptySizeTest{int}[9]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="emptySizeTest{int}[10]" classname="ListRemoveTest" time="0.006"/>
+  <testcase name="emptySizeTest{int}[11]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="emptySizeTest{int}[12]" classname="ListRemoveTest" time="0.003"/>
+  <testcase name="removeInsertSizeTestNeg{int}[1]" classname="ListRemoveTest" time="0.004"/>
+  <testcase name="removeInsertSizeTestNeg{int}[2]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeInsertSizeTestNeg{int}[3]" classname="ListRemoveTest" time="0.003"/>
+  <testcase name="removeInsertSizeTestNeg{int}[4]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeInsertSizeTestNeg{int}[5]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeInsertSizeTestNeg{int}[6]" classname="ListRemoveTest" time="0.004"/>
+  <testcase name="removeInsertSizeTestNeg{int}[7]" classname="ListRemoveTest" time="0.003"/>
+  <testcase name="removeInsertSizeTestNeg{int}[8]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeInsertSizeTestNeg{int}[9]" classname="ListRemoveTest" time="0.003"/>
+  <testcase name="removeInsertSizeTestNeg{int}[10]" classname="ListRemoveTest" time="0.038"/>
+  <testcase name="removeInsertSizeTestNeg{int}[11]" classname="ListRemoveTest" time="0.012"/>
+  <testcase name="removeInsertSizeTestNeg{int}[12]" classname="ListRemoveTest" time="0.036"/>
+  <testcase name="removeInsertSizeTest{int}[1]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeInsertSizeTest{int}[2]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeInsertSizeTest{int}[3]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeInsertSizeTest{int}[4]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeInsertSizeTest{int}[5]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeInsertSizeTest{int}[6]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeInsertSizeTest{int}[7]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeInsertSizeTest{int}[8]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeInsertSizeTest{int}[9]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeInsertSizeTest{int}[10]" classname="ListRemoveTest" time="0.008"/>
+  <testcase name="removeInsertSizeTest{int}[11]" classname="ListRemoveTest" time="0.008"/>
+  <testcase name="removeInsertSizeTest{int}[12]" classname="ListRemoveTest" time="0.044"/>
+  <testcase name="removeLookup{int}[1]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeLookup{int}[2]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeLookup{int}[3]" classname="ListRemoveTest" time="0.003"/>
+  <testcase name="removeLookup{int}[4]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeLookup{int}[5]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeLookup{int}[6]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeLookup{int}[7]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeLookup{int}[8]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeLookup{int}[9]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeLookup{int}[10]" classname="ListRemoveTest" time="0.018"/>
+  <testcase name="removeLookup{int}[11]" classname="ListRemoveTest" time="0.006"/>
+  <testcase name="removeLookup{int}[12]" classname="ListRemoveTest" time="0.021"/>
+  <testcase name="removeLookupNeg{int}[1]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeLookupNeg{int}[2]" classname="ListRemoveTest" time="0.003"/>
+  <testcase name="removeLookupNeg{int}[3]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeLookupNeg{int}[4]" classname="ListRemoveTest" time="0.004"/>
+  <testcase name="removeLookupNeg{int}[5]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeLookupNeg{int}[6]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeLookupNeg{int}[7]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeLookupNeg{int}[8]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeLookupNeg{int}[9]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeLookupNeg{int}[10]" classname="ListRemoveTest" time="0.022"/>
+  <testcase name="removeLookupNeg{int}[11]" classname="ListRemoveTest" time="0.006"/>
+  <testcase name="removeLookupNeg{int}[12]" classname="ListRemoveTest" time="0.019"/>
+  <testcase name="removeNotThrowTestNeg{int}[1]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeNotThrowTestNeg{int}[2]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTestNeg{int}[3]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTestNeg{int}[4]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTestNeg{int}[5]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeNotThrowTestNeg{int}[6]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTestNeg{int}[7]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTestNeg{int}[8]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTestNeg{int}[9]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTestNeg{int}[10]" classname="ListRemoveTest" time="0.007"/>
+  <testcase name="removeNotThrowTestNeg{int}[11]" classname="ListRemoveTest" time="0.007"/>
+  <testcase name="removeNotThrowTestNeg{int}[12]" classname="ListRemoveTest" time="0.025"/>
+  <testcase name="removeSizeTest{int}[1]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeSizeTest{int}[2]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTest{int}[3]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTest{int}[4]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeSizeTest{int}[5]" classname="ListRemoveTest" time="0.003"/>
+  <testcase name="removeSizeTest{int}[6]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTest{int}[7]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTest{int}[8]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTest{int}[9]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTest{int}[10]" classname="ListRemoveTest" time="0.009"/>
+  <testcase name="removeSizeTest{int}[11]" classname="ListRemoveTest" time="0.011"/>
+  <testcase name="removeSizeTest{int}[12]" classname="ListRemoveTest" time="0.05"/>
+  <testcase name="removeAllTest{int}[1]" classname="ListRemoveTest" time="0.004"/>
+  <testcase name="removeAllTest{int}[2]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeAllTest{int}[3]" classname="ListRemoveTest" time="0.005"/>
+  <testcase name="removeAllTest{int}[4]" classname="ListRemoveTest" time="0.003"/>
+  <testcase name="removeAllTest{int}[5]" classname="ListRemoveTest" time="0.004"/>
+  <testcase name="removeAllTest{int}[6]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeAllTest{int}[7]" classname="ListRemoveTest" time="0.003"/>
+  <testcase name="removeAllTest{int}[8]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeAllTest{int}[9]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeAllTest{int}[10]" classname="ListRemoveTest" time="0.011"/>
+  <testcase name="removeAllTest{int}[11]" classname="ListRemoveTest" time="0.011"/>
+  <testcase name="removeAllTest{int}[12]" classname="ListRemoveTest" time="0.035"/>
+  <testcase name="removeSizeTestNeg{int}[1]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeSizeTestNeg{int}[2]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTestNeg{int}[3]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTestNeg{int}[4]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTestNeg{int}[5]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTestNeg{int}[6]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeSizeTestNeg{int}[7]" classname="ListRemoveTest" time="0.004"/>
+  <testcase name="removeSizeTestNeg{int}[8]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeSizeTestNeg{int}[9]" classname="ListRemoveTest" time="0.004"/>
+  <testcase name="removeSizeTestNeg{int}[10]" classname="ListRemoveTest" time="0.011"/>
+  <testcase name="removeSizeTestNeg{int}[11]" classname="ListRemoveTest" time="0.008"/>
+  <testcase name="removeSizeTestNeg{int}[12]" classname="ListRemoveTest" time="0.037"/>
+  <testcase name="removeNotThrowTest{int}[1]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTest{int}[2]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTest{int}[3]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeNotThrowTest{int}[4]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTest{int}[5]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeNotThrowTest{int}[6]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTest{int}[7]" classname="ListRemoveTest" time="0"/>
+  <testcase name="removeNotThrowTest{int}[8]" classname="ListRemoveTest" time="0.001"/>
+  <testcase name="removeNotThrowTest{int}[9]" classname="ListRemoveTest" time="0.002"/>
+  <testcase name="removeNotThrowTest{int}[10]" classname="ListRemoveTest" time="0.004"/>
+  <testcase name="removeNotThrowTest{int}[11]" classname="ListRemoveTest" time="0.021"/>
+  <testcase name="removeNotThrowTest{int}[12]" classname="ListRemoveTest" time="0.025"/>
+</testsuite>

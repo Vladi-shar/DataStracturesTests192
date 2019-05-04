@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: ListConstructorTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.126 s <<< FAILURE! - in ListConstructorTest
+constructorListLastLinkTest{int}[1]  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Array size of +infinity link isnt equal to N+1 ==> expected: <2> but was: <1>
+	at ListConstructorTest.constructorListLastLinkTest(ListConstructorTest.java:105)
+
+constructorListLastLinkTest{int}[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Array size of +infinity link isnt equal to N+1 ==> expected: <51> but was: <50>
+	at ListConstructorTest.constructorListLastLinkTest(ListConstructorTest.java:105)
+
+constructorListLastLinkTest{int}[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Array size of +infinity link isnt equal to N+1 ==> expected: <501> but was: <500>
+	at ListConstructorTest.constructorListLastLinkTest(ListConstructorTest.java:105)
+
+constructorListLastLinkTest{int}[4]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Array size of +infinity link isnt equal to N+1 ==> expected: <1001> but was: <1000>
+	at ListConstructorTest.constructorListLastLinkTest(ListConstructorTest.java:105)
+
+constructorListFirstLinkTest{int}[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Array size of -infinity link isn't equal to N+1 ==> expected: <2> but was: <1>
+	at ListConstructorTest.constructorListFirstLinkTest(ListConstructorTest.java:81)
+
+constructorListFirstLinkTest{int}[2]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Array size of -infinity link isn't equal to N+1 ==> expected: <51> but was: <50>
+	at ListConstructorTest.constructorListFirstLinkTest(ListConstructorTest.java:81)
+
+constructorListFirstLinkTest{int}[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Array size of -infinity link isn't equal to N+1 ==> expected: <501> but was: <500>
+	at ListConstructorTest.constructorListFirstLinkTest(ListConstructorTest.java:81)
+
+constructorListFirstLinkTest{int}[4]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Array size of -infinity link isn't equal to N+1 ==> expected: <1001> but was: <1000>
+	at ListConstructorTest.constructorListFirstLinkTest(ListConstructorTest.java:81)
+

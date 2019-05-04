@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: RunTimeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.077 s <<< FAILURE! - in RunTimeTest
+runTimeTest  Time elapsed: 0.075 s  <<< ERROR!
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at RunTimeTest.runTimeTest(RunTimeTest.java:48)
+

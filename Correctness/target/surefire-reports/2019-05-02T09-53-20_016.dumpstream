@@ -1,0 +1,48 @@
+# Created at 2019-05-02T09:53:20.683
+May 02, 2019 9:53:20 AM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created at 2019-05-02T09:53:20.683
+WARNING: Possible configuration error: method [void ListArraySizesInvariantTest.nextArraySizeRemoveTest()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2019-05-02T09:53:20.685
+May 02, 2019 9:53:20 AM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created at 2019-05-02T09:53:20.685
+WARNING: Possible configuration error: method [void ListArraySizesInvariantTest.prevArraySizeRemoveTest()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2019-05-02T09:53:20.687
+May 02, 2019 9:53:20 AM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created at 2019-05-02T09:53:20.687
+WARNING: Possible configuration error: method [void ListArraySizesInvariantTest.nextArraySizeTest()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2019-05-02T09:53:20.690
+May 02, 2019 9:53:20 AM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created at 2019-05-02T09:53:20.690
+WARNING: Possible configuration error: method [void ListArraySizesInvariantTest.prevArraySizeTest()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2019-05-02T09:53:20.743
+May 02, 2019 9:53:20 AM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created at 2019-05-02T09:53:20.744
+WARNING: Possible configuration error: method [void ListArraySizesInvariantTest.nextArraySizeRemoveTest()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2019-05-02T09:53:20.746
+May 02, 2019 9:53:20 AM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created at 2019-05-02T09:53:20.747
+WARNING: Possible configuration error: method [void ListArraySizesInvariantTest.prevArraySizeRemoveTest()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2019-05-02T09:53:20.749
+May 02, 2019 9:53:20 AM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created at 2019-05-02T09:53:20.749
+WARNING: Possible configuration error: method [void ListArraySizesInvariantTest.nextArraySizeTest()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor, org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
+# Created at 2019-05-02T09:53:20.752
+May 02, 2019 9:53:20 AM org.junit.jupiter.engine.discovery.JavaElementsResolver logMultipleTestDescriptorsForSingleElement
+
+# Created at 2019-05-02T09:53:20.752
+WARNING: Possible configuration error: method [void ListArraySizesInvariantTest.prevArraySizeTest()] resulted in multiple TestDescriptors [org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor, org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor]. This is typically the result of annotating a method with multiple competing annotations such as @Test, @RepeatedTest, @ParameterizedTest, @TestFactory, etc.
+
